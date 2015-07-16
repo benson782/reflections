@@ -13,3 +13,13 @@ Fork is like clone but only on GitHu.  Clone is making a copy of a repo.  Branch
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You can work with it offline when you don't have internet access.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Use SVN.  In SVN, branches are just copies of the parent code.  So, branches are not connected to their parent.  You have to add that info to the comments.  Switch between branched would be harder too.  You have to checkout each branch.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+The new changes could break the master or you don't want to add the changes tot he master until they are reviewed.  If you don't branch and add to the master directly, you don't have to worry if are not current with other peoples changes.  You will always be current since you are making changes directly to the master.
+
+
